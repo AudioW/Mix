@@ -14,6 +14,8 @@
 		6C35939A1DF61A0E00024742 /* MixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3593991DF61A0E00024742 /* MixTests.swift */; };
 		6C3593A51DF61A0E00024742 /* MixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3593A41DF61A0E00024742 /* MixUITests.swift */; };
 		6C59B70C1E06DC4C00E7ED40 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59B70B1E06DC4C00E7ED40 /* Snapshot.swift */; };
+		6CA6AED51E1536FC009BA01B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6AED41E1536FC009BA01B /* ButtonView.swift */; };
+		6CA6AED71E153726009BA01B /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6AED61E153726009BA01B /* StyleKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6C3593A41DF61A0E00024742 /* MixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixUITests.swift; sourceTree = "<group>"; };
 		6C3593A61DF61A0E00024742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C59B70B1E06DC4C00E7ED40 /* Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snapshot.swift; sourceTree = "<group>"; };
+		6CA6AED41E1536FC009BA01B /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		6CA6AED61E153726009BA01B /* StyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		6C3593861DF61A0E00024742 /* Mix */ = {
 			isa = PBXGroup;
 			children = (
+				6CA6AED61E153726009BA01B /* StyleKit.swift */,
 				6C3593871DF61A0E00024742 /* AppDelegate.swift */,
 				6C3593891DF61A0E00024742 /* ViewController.swift */,
 				6C35938B1DF61A0E00024742 /* Assets.xcassets */,
 				6C35938D1DF61A0E00024742 /* Main.storyboard */,
 				6C3593901DF61A0E00024742 /* Info.plist */,
 				6C59B70B1E06DC4C00E7ED40 /* Snapshot.swift */,
+				6CA6AED41E1536FC009BA01B /* ButtonView.swift */,
 			);
 			path = Mix;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				6C59B70C1E06DC4C00E7ED40 /* Snapshot.swift in Sources */,
 				6C35938A1DF61A0E00024742 /* ViewController.swift in Sources */,
+				6CA6AED51E1536FC009BA01B /* ButtonView.swift in Sources */,
+				6CA6AED71E153726009BA01B /* StyleKit.swift in Sources */,
 				6C3593881DF61A0E00024742 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
